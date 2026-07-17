@@ -3,9 +3,6 @@ set -e
 rm -rf repo
 mkdir repo
 cd repo
-git init -q -b master
-git config user.email "193163902+jormiquis@users.noreply.github.com"
-git config user.name "jormiquis"
 
 cat > calculator.py <<'EOF'
 def add(a, b):
